@@ -17,7 +17,7 @@ class AlienInvasion:
         self.settings = Settings()
 
         self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height))
-        pygame.display.set_caption("ALIEN INVASION by MR.JONES")
+        pygame.display.set_caption("ALIEN INVASION BY MR.JONES")
 
         # Create an instance of the game statistics
         self.stats = GameStats(self)
